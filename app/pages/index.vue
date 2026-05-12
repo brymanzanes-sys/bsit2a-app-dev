@@ -54,7 +54,14 @@ const username = ref("");
 const password = ref("");
 
 function login() {
-  alert("LOGIN FUNCTION CALLED");
+  if (username.value === defaultUsername.value && password.value === defaultPassword.value) {
+    setTimeout(() => {
+      
+    navigateTo("/dashboard");
+    }, 3000);
+  } else {
+    alert("MALI GAGO ULITIN MO WAG TANGA!!");
+  }
 }
 
 

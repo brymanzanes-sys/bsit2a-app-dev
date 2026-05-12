@@ -19,11 +19,13 @@
         <v-divider></v-divider>
 
         <v-list density="compact" nav>
-          <v-list-item prepend-icon="mdi-home-city" title="Home" value="home"></v-list-item>
-          <v-list-item prepend-icon="mdi-account" title="My Account" value="account"></v-list-item>
+          <v-list-item prepend-icon="mdi-home-city" title="Dashboard" value="dashboard" to="/dashboard"></v-list-item>
           <v-list-item prepend-icon="mdi-account-group-outline" title="Remedial" value="remedial"
           to="/remedial"
           ></v-list-item>
+          <v-list-item prepend-icon="mdi-calculator" title="Calculate" value="Calculate" to="/calculate"></v-list-item>
+          <v-list-item prepend-icon="mdi-calculator" title="MidtermExam" value="midtermexam" to="/midtermexam"></v-list-item>
+          <v-list-item prepend-icon="mdi-clock" title="To do" value="Todo" to="/Todo"></v-list-item>
         </v-list>
       </v-navigation-drawer>
 
